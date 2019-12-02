@@ -1,0 +1,22 @@
+{
+  "name": "CArray",
+  "version": "0.0.1",
+  "description": "Custom Array Library",
+  "main": "index.js",
+  "author": "Inigo Sanz Garcia",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "start": "node -r esm index.js"
+  }
+}
